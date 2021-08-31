@@ -1,0 +1,24 @@
+
+[1mFrom:[0m /home/fleurelle/Development/code/MOD3/Display_data_from_an_ArrayofArrays/phase-3-nested-arrays-iteration-lab-part-1/lib/iteration_with_loops.rb:8 Object#find_even_values:
+
+     [1;34m2[0m: [32mdef[0m [1;34mfind_even_values[0m(src)
+     [1;34m3[0m:   [1;34m# Given an Array of Arrays of Integers ( [ [10, 11], [99, 50, 3, 4], [23, 41] ] ):[0m
+     [1;34m4[0m:   [1;34m#[0m
+     [1;34m5[0m:   [1;34m# Output all even values in each nested array[0m
+     [1;34m6[0m: 
+     [1;34m7[0m:   count = [1;34m0[0m
+ =>  [1;34m8[0m:   binding.pry
+     [1;34m9[0m:   [32mwhile[0m count < src.length [32mdo[0m
+    [1;34m10[0m:     inner_count = [1;34m0[0m
+    [1;34m11[0m: 
+    [1;34m12[0m:     [32mwhile[0m inner_count < src[count].length [32mdo[0m
+    [1;34m13[0m:       [32mif[0m src[count][inner_count].even?
+    [1;34m14[0m:         puts src[count][inner_count]
+    [1;34m15[0m:       [32mend[0m
+    [1;34m16[0m:       inner_count += [1;34m1[0m
+    [1;34m17[0m:     [32mend[0m
+    [1;34m18[0m:     count += [1;34m1[0m
+    [1;34m19[0m:   [32mend[0m
+    [1;34m20[0m: 
+    [1;34m21[0m: [32mend[0m
+
